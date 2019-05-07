@@ -24,8 +24,7 @@ arguments as follows:
 * -cond_cutoff: integer percentage of trajectory (default is 10, i.e. 10%).
 
 For example, running mdcrd2pdbs with the following options:
-```mdcrd2pdbs -topo input.prmtop -traj production.mdcrd -start 0 -final 999
-            -out pdbtraj -cond_res FLN -cond_within 6 -cond_cutoff 25```
+```mdcrd2pdbs -topo input.prmtop -traj production.mdcrd -start 0 -final 999 -out pdbtraj -cond_res FLN -cond_within 6 -cond_cutoff 25```
             
 will result in processing of 1000 snapshots of the AMBER trajectory
 "production.mdcrd", with the topology taken from "input.prmtop", starting from
