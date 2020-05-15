@@ -33,6 +33,8 @@ within 6 angstroms of the fluoresceine (FLN) residue for at least quarter (25%)
 of the whole trajectory. Program will output 1000 PDB files, from
 "pdbtraj0001.pdb" to "pdbtraj1000.pdb".
 
+[![DOI](https://zenodo.org/badge/185379400.svg)](https://zenodo.org/badge/latestdoi/185379400)
+
 This software is made available as is, and is distributed without warranty of
 any kind, either expressed or implied. Should you have any questions and/or
 suggestions, please feel free to contact the author, Alexander V. Popov.
